@@ -1,0 +1,10 @@
+img{
+    border-radius: 2rem;
+}
+body,h1,h3{
+    text-align: center;
+}
+i{
+    color: blue;
+    font-size: 2rem;
+}
