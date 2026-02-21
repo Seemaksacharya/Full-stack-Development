@@ -47,7 +47,7 @@ label{
 
 button{
     background-color: #fc5a1a;
-
+    box-sizing: border-box;
 }
 .social-icons {
     display: flex;                 
