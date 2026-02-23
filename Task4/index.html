@@ -10,15 +10,27 @@
 </head>
 <body>
     <img class="bgimg" src="image.jpg" alt="Background-image">
-    <img class="profile" src="seema.jpg" alt="profile-image">
-    <h1><b>Hi, I am Seema K.S</b></h1>
-    <h3><em>Frontend Developer</h3>
+    <header>
+       <nav class="navbar">
+        <img src="image.jpg" width="50">
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">CONTACT</a>
+       </nav>
+    </header>
+        <img class="profile" src="seema.jpg" alt="profile-image">
+    <h1><b><em>Hi, I am Seema K.S</em></b></h1>
+    <h3>Frontend Developer</h3>
+    <main id="main-content">
     <div id="intro">
-    <p>I am a Frontend Developer skilled in HTML, CSS, JavaScript, and React.js. <br>
+    <section>
+    <p><em>I am a Frontend Developer skilled in <mark>HTML, CSS, JavaScript, and React.js.</mark><br>
     I enjoy building responsive and user-friendly web applications.<br>
     I focus on creating clean UI designs and smooth user experiences. <br>
-    I am always eager to learn and improve my development skills.</p></em>
+    <q>I am always eager to learn and improve my development skills.</q></p></em>
+    </section>
     </div>
+    </main>
     <div class="social-icons">
     <a href="https://www.instagram.com" target="_blank" ><i class="fa-brands fa-instagram"></i></a>
     <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
@@ -44,8 +56,74 @@
     <textarea placeholder="Message"></textarea><br>
     <button>Submit</button>
     </form>
+    <hr> 
+    <audio controls src="/shared-assets/audio/t-rex-roar.mp3"></audio>
+    <a href="/shared-assets/audio/t-rex-roar.mp3"> Download audio </a>
     <hr>
-    
+    <video controls width="250">
+        <a href="https://www.pexels.com/video/growling-little-lion-7008030/">Video</a>
+    </video>
+    <hr>
+    <aside>
+    <p>The Rough-skinned Newt defends itself with a deadly neurotoxin.</p>
+    </aside>
+    <div class="Technologies">
+        <label for="html">I know HTML.</label>
+        <input type="checkbox">
+    </div>
+    <div class="Technologies">
+        <label for="css">I know CSS.</label>
+        <input type="checkbox"/>
+    </div>
+    <hr>
+    <div class="file-uploads">
+    <label for="uploads">Choose a file:</label>
+    <input type="file"><br>
+    <label for="image-uploads">Choose a file:</label>
+    <input type="file" accept="image/png,image/jpeg"><br>
+    </div>
+    <hr>
+    <div class="intro">
+        <title>HTML AND CSS</title>
+        <pre>
+        <del>HTML</del>HyperText Markup Language and CSS <s>(Cascading Style Sheets)</s><ins>Cascading Style Sheets</ins> are the basic building blocks of web development.
+        HTML is used to create the structure of a webpage by defining elements like headings, paragraphs, images, links, and forms, 
+        while CSS is used to style and design those elements by adding colors, fonts, spacing, layouts, and animations. 
+        In simple terms, HTML creates the content of the webpage, and CSS makes it look attractive and visually appealing.
+        </pre>
+    </div>
+
+    <div class="quotations">
+    <p>
+     You can use <abbr>CSS</abbr> (Cascading Style Sheets) to style your
+     <abbr>HTML</abbr> (HyperText Markup Language). Using style sheets, you can
+     keep your <abbr>CSS</abbr> presentation layer and <abbr>HTML</abbr> content
+     layer separate. This is called "separation of concerns."
+    </p>
+    </div>
+
+    <div class="citation">
+        <pre>
+        <blockquote>
+        HTML is the standard markup language for Web pages.
+        With HTML you can create your own Website.
+        HTML is easy to learn - You will enjoy it!
+        Reference:<cite><a href="https://www.w3schools.com/html/default.asp">w3schools</a></cite>
+        </blockquote>
+    </pre>
+    </div>
+    <article class="day-forecast">
+    <h2>How to Learn HTML</h2>
+    <p>HTML is the foundation of web development...</p>
+    </article>
+   <footer>
+    <p>Contact:</p>
+    <address>
+    <a href="mailto:google.com">abc@example.com</a><br />
+    <a href="tel:+14155550132">1234567891</a>
+    </address>
+   </footer> 
+
 </body>
 </html>
 
