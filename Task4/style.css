@@ -8,8 +8,9 @@ body{
     text-align: center;
     color: white;
     padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Anek Kannada", sans-serif;  
 }
+
 .bgimg {
     top: 0;
     left: 0;
@@ -140,4 +141,39 @@ footer a{
 }
 #title{
     color: cyan;
+}
+.alignment{
+    color:#2fb7fc
+}
+#start{
+    text-align: start;
+    text-decoration:underline;
+    text-transform: capitalize;
+    letter-spacing: normal;
+}
+#end{
+    text-align: end;
+    text-decoration: overline;
+    text-decoration-color: #6bfa58;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  
+}
+#center{
+    text-align: center;
+    text-decoration: overline;
+    text-decoration-color: #d1114b;
+    text-decoration-style: dotted;
+    text-transform: lowercase;
+    word-spacing: 20px;
+}
+#justify{
+    text-align:justify;
+    text-decoration: overline;
+    text-decoration-color: #f47003;
+    text-decoration-style: double;
+    line-height: 50px;
+}
+.text-shadow{
+    text-shadow: 2px -2px 1px red;
 }
