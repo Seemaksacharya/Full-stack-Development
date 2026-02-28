@@ -1,8 +1,7 @@
-*{
-    margin: 20px;
-}
+
 html {
     scroll-behavior: smooth;
+    
 }
 body{
     text-align: center;
@@ -18,7 +17,8 @@ body{
     height: 100vh;
     z-index: -1;
     position: fixed;
-    filter: brightness(60%);
+    filter: brightness(40%);
+  
 }
 header{
     text-align: center;
@@ -131,7 +131,7 @@ footer a{
     color: chartreuse;
 }
 .subsequent h2 ~ p{
-    color: #e2d8e2;
+    color: #fce6fc;
 }
 .element{
     color: #ff6383;
@@ -176,4 +176,27 @@ footer a{
 }
 .text-shadow{
     text-shadow: 2px -2px 1px red;
+}
+.opacity p{
+    opacity: 1;
+    background-color: #1ae75b;
+}
+.opacity p +p {
+   opacity: 40%;
+   background-image: url("img.jpg");
+}
+.grad #linear{
+    background-image: linear-gradient(to right, red, yellow);
+}
+#radial{
+    background-image: radial-gradient(green,yellow, red);
+}
+#conic {
+    background-image: conic-gradient(red,yellow,green);
+}
+#position p{
+    color: black;
+    font-weight: bold;
+    background-image: url(img.jpg);
+    background-position: top;
 }
