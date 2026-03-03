@@ -58,7 +58,6 @@ header{
     color:#00ffff;
  }
  #intro{
-    width: calc(100% - 40px);
     margin: auto;
     padding: 20px;
     line-height: 1.5;
@@ -103,6 +102,11 @@ form button{
     font-weight: bold;
     cursor: pointer;
 }
+form input:focus {
+  border: 2px solid blue;
+  outline: none;
+}
+
 .Technology{
     margin: 10px;
 }
@@ -112,7 +116,7 @@ form button{
 pre{
     white-space: pre-wrap;
     text-align: left;
-    width: min(800px, 90%);
+
     margin: auto;
 }
 footer{
@@ -208,7 +212,7 @@ footer a{
 }
 
 .box {
-  display:inline;
+  display:inline-block;
   background: #ee4a91;
 }
 .hide {
@@ -235,14 +239,15 @@ footer a{
   z-index: -1;
 }
 .para{
-    color:#3ef016;
+    color:#3ef016 !important;
 }
 #text{
     color: red;
 }
 table{
   padding-top:3rem;
-  padding-left:30rem   
+  padding-left:30rem
+    
 }
 th{
   background-color:green;
@@ -254,7 +259,7 @@ td{
 }
 .list{
     list-style-type: square;
-    list-style-position: inside;
+    list-style-position: outside;
 }
 table{
   padding-top:3rem;
@@ -268,7 +273,83 @@ table{
   text-align: center;
 }
 th {
-  background: black;
+  background: rgb(108, 105, 105);
   color: white;
 }
+.img{
+    filter:blur(1px);
+    
+}
+.car{
+    width: 100%;
+    object-fit:fill;   
+    image-rendering: crisp-edges;
+}
+.button{
+    width: 50%;
+    padding: 10px;
+    border: none;
+    background: #6bfa58 ;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button:hover{
+  background-color: black;
+  color: white;
+}
+button:active{
+    transform: scale(0.95);
+}
+.element p::first-line {
+  color: rgb(0, 255, 102);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.element p::first-letter {
+  color: rgb(255, 0, 55);
+  font-weight: bold;
+}
+.container {
+  border: 3px solid black;   
+  padding: 15px;
+  width: 500px;
+}
+.float {
+  float: right;
+  border: 3px solid red;    
+  margin-right: 15px;
+}
+.multi-column{
+    column-count: 3;
+    column-gap:10px;
+    column-rule:3px solid rgb(249, 17, 17);
+    column-rule-style:dotted;
+}
+.flex{
+    display: flex;
+    border: 3px solid black;
+    flex-direction: row;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background: rgb(14, 165, 215);
+  margin: 10px;
+  text-align: center;
+  line-height: 100px;
+}
+.grid{
+  display:grid;
+  grid-template-columns: 100px 100px;
+  grid-template-rows: 100px 100px;
+  gap: 10px;
+  grid-template-columns: repeat(4,1fr);
+  
+}
 
+.box {
+  background: lightblue;
+  text-align: center;
+
+}
