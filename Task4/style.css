@@ -293,10 +293,12 @@ th {
     color: black;
     font-weight: bold;
     cursor: pointer;
+    transition: 3s;
 }
 .button:hover{
   background-color: black;
   color: white;
+
 }
 button:active{
     transform: scale(0.95);
@@ -316,7 +318,7 @@ button:active{
   width: 500px;
 }
 .float {
-  float: right;
+  float: left;
   border: 3px solid red;    
   margin-right: 15px;
 }
@@ -329,7 +331,7 @@ button:active{
 .flex{
     display: flex;
     border: 3px solid black;
-    flex-direction: row;
+    flex-direction: column;
 }
 .box {
   width: 100px;
@@ -352,4 +354,56 @@ button:active{
   background: lightblue;
   text-align: center;
 
+}
+.box{
+  width:100px;
+  height:100px;
+  background:red;
+  transform: translateX(50px);
+}
+.box{
+  width:100px;
+  height:100px;
+  background-color: red;
+  animation:moveBox 3s infinite;
+}
+@keyframes moveBox{
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(300px);
+  }
+}
+.animation{
+  width:100px;
+  height:100px;
+  background-color: red;
+  animation: colorChange 2s infinite;
+}
+@keyframes colorChange {
+    0%{
+        background: red;
+    }
+    50%{
+        background: blue;
+    }
+    100%{
+        background: green;
+    }
+}
+.text{
+    animation:textColor 3s 3;
+    color: #0b0b0b;
+}
+@keyframes textColor{
+    0%{
+        background: red;
+    }
+    50%{
+        background: #2fb7fc;
+    }
+    100%{
+        background: #15f43e;
+    }
 }
