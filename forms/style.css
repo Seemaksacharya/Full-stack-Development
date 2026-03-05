@@ -1,0 +1,40 @@
+body{
+    background-color: #fef7f7;
+}
+.container{
+    margin-top: 30px;
+    border-radius: 30px;
+    background-color:white;
+    padding: 30px;
+    width: 60%;
+}
+.grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:10px;
+    width:300px;
+}
+label{
+    font-size: 18px;
+    opacity: 0.4;
+}
+input{
+    opacity: 0.4;
+}
+.note{
+    color: red;
+}
+.field{
+    display: flex;
+    flex-direction: column;
+}
+#button{
+    width:100%;
+    font-size: 20px;
+    color:white;
+    background-color: cornflowerblue;
+    padding: 20px;
+    border-radius: 10px;
+    border-style: none;
+    margin-top: 20px;
+}
