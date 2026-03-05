@@ -6,7 +6,7 @@ body{
     border-radius: 30px;
     background-color:white;
     padding: 30px;
-    width: 60%;
+    width: 90%;
 }
 .grid{
     display:grid;
@@ -14,12 +14,10 @@ body{
     gap:10px;
     width:300px;
 }
-label{
-    font-size: 18px;
+label,input{
+    font-size: 15px;
     opacity: 0.4;
-}
-input{
-    opacity: 0.4;
+    padding: 4px;
 }
 .note{
     color: red;
@@ -37,4 +35,18 @@ input{
     border-radius: 10px;
     border-style: none;
     margin-top: 20px;
+}
+.select{
+    opacity: 0.4;
+    padding: 7px;
+}
+.extension{
+    background-color: darkgrey;
+    padding: 4px;
+    border-radius: 4px;
+    width: 30px;
+}
+.link{
+    width: 60%;
+    margin-bottom: 10px;
 }
