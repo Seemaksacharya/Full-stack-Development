@@ -1,0 +1,14 @@
+body{
+    background-image: url(flower.jpg);
+}
+.box{
+    width: calc(300px + 50px);
+    height: 150px;
+    background: linear-gradient(to right, red, blue);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+    transform: translateX(50px);
+}
