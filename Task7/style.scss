@@ -1,0 +1,49 @@
+$primary-color: #3498db;
+$text-color: white;
+
+@mixin button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+body {
+  font-family: Arial;
+  text-align: center;
+}
+
+.navbar {
+  background: $primary-color;
+  padding: 15px;
+
+h2 {
+    color: $text-color;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+    margin: 10px;
+}
+
+a {
+    color: $text-color;
+    text-decoration: none;
+}
+}
+
+.btn-first {
+  @include button;
+  background: $primary-color;
+  color: white;
+}
+
+.btn-second {
+  @include button;
+  background: gray;
+  color: white;
+}
