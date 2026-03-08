@@ -1,10 +1,11 @@
 body {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
+  background-color: blanchedalmond;
 }
 
 .navbar {
-  background: #4e0957;
+  background: #e079ee;
   padding: 15px;
 }
 
@@ -26,7 +27,7 @@ body {
   text-decoration: none;
 }
 .container{
-    background-color: aquamarine;
+    background-color: #b0e2d2;
     border-radius: 10px;
     width:600px;
     height: 300px;
