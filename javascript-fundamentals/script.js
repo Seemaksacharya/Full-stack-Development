@@ -1,8 +1,10 @@
 //Var
 function test(){
     var a=5;
+    a=10;
     console.log(a);
 }
+test();
 
  if(true){
     var num= 20;
@@ -19,4 +21,3 @@ function test(){
  const pi= 3.14;
  console.log(pi);
 
- 
