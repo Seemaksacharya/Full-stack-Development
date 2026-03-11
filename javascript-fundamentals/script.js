@@ -1,7 +1,4 @@
 //Var
-
-console.log(x);
-
 function test(){
     var a=5;
     console.log(a);
@@ -10,10 +7,16 @@ function test(){
  if(true){
     var num= 20;
  }
- console.log(num);
+ console.log("NUM=" +num);
 
  //let
  if (true) {
     let x =10;
+    console.log("x=" +x);
  }
- console.log(x);
+ 
+ //const
+ const pi= 3.14;
+ console.log(pi);
+
+ 
