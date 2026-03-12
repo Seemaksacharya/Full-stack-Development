@@ -21,3 +21,10 @@ test();
  const pi= 3.14;
  console.log(pi);
 
+//Hoisting with var
+console.log(a);
+var a = 10;
+
+//Hoisting with let
+console.log(b);
+let b=20;
