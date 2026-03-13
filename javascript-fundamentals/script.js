@@ -42,3 +42,5 @@ getElementByID //camelCasing
 GetType //PascalCasing
 array_push//snakecasing
 MAX_VALUE//SCREAMING_SNAKE_CASING
+
+//variable scope
