@@ -25,6 +25,18 @@ test();
 console.log(a);//Undefined
 var a = 10;
 
-//Hoisting with let
-console.log(b);
-let b=20;
+
+const name ="Seema";
+const city= "Tth";
+let age=23;
+console.log(name);
+console.log(age);
+console.log(city);
+
+let x = 5;
+ x = 10;
+console.log(x);
+
+// casing convention
+getElementByID //camelCasing
+GetType //
