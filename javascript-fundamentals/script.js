@@ -39,4 +39,6 @@ console.log(x);
 
 // casing convention
 getElementByID //camelCasing
-GetType //
+GetType //PascalCasing
+array_push//snakecasing
+MAX_VALUE//SCREAMING_SNAKE_CASING
