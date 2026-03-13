@@ -44,3 +44,8 @@ array_push//snakecasing
 MAX_VALUE//SCREAMING_SNAKE_CASING
 
 //variable scope
+ 
+//Global 
+var a=10;
+let b=20;
+const c=100;
