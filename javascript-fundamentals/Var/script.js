@@ -22,7 +22,7 @@ test();
  console.log(pi);
 
 //Hoisting with var
-console.log(a);
+console.log(a);//Undefined
 var a = 10;
 
 //Hoisting with let
