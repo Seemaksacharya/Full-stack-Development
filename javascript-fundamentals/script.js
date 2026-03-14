@@ -31,7 +31,7 @@ console.log(city);
 let x = 5;
  x = 10;
 console.log(x);
-
+/*
 // casing convention
 getElementByID //camelCasing
 GetType //PascalCasing
@@ -53,10 +53,5 @@ function test(){
 }
 
 test();
-//block scope
 
-{
-   let name="seema";
-}
-
-//
+*/
