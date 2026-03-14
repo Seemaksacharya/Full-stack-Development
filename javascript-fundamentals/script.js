@@ -1,10 +1,5 @@
 //Var
-function test(){
-    var a=5;
-    a=10;
-    console.log(a);
-}
-test();
+
 
  if(true){
     var num= 20;
@@ -49,3 +44,19 @@ MAX_VALUE//SCREAMING_SNAKE_CASING
 var a=10;
 let b=20;
 const c=100;
+
+//function scope
+function test(){
+    var a=5;
+    a=10;
+    console.log(a);
+}
+
+test();
+//block scope
+
+{
+   let name="seema";
+}
+
+//
