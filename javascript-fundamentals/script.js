@@ -4,7 +4,7 @@
  if(true){
     var num= 20;
  }
- console.log("NUM=" +num);
+ console.log(num);
 
  //let
  if (true) {
