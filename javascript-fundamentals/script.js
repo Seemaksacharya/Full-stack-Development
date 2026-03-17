@@ -31,13 +31,6 @@ let x = 5;
  x = 10;
 console.log(x);
 
-//variable scope
- 
-//Global 
-var a=10;
-let b=20;
-const c=100;
-
 
 function test(){
     var a=5;
