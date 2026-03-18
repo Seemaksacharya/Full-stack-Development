@@ -55,4 +55,8 @@ console.log(a);
 let num=250;
 console.log(num);
 
-//
+//bigint
+let a=675457879994434;
+let b=987566543423456;
+ 
+//boolean
