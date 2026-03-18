@@ -43,4 +43,16 @@ function test(){
 }
 test();
 
+//string
+let str="Seema";
+console.log(str);
 
+//undefined
+let a;
+console.log(a);
+
+//number
+let num=250;
+console.log(num);
+
+//
