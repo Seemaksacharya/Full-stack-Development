@@ -1,3 +1,4 @@
+//primitive datatype
 
 let studentName = "Seema";
 let course = 'MCA';
@@ -47,3 +48,5 @@ console.log("Type of isStudent:", typeof isStudent);
 console.log("Type of address:", typeof address);
 console.log("Type of phoneNumber:", typeof phoneNumber);
 console.log("Type of id1:", typeof id1);
+
+//object
