@@ -47,5 +47,6 @@ console.log("Type of bigNumber:", typeof bigNumber);
 console.log("Type of isStudent:", typeof isStudent);
 console.log("Type of address:", typeof address);
 console.log("Type of phoneNumber:", typeof phoneNumber);
+
 console.log("Type of id1:", typeof id1);
 
