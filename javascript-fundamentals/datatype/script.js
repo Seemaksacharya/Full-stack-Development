@@ -40,7 +40,7 @@ console.log("Symbol value 2:", id2);
 console.log("Are symbols equal?", id1 === id2);
 
 
-
+//type of data
 console.log("Type of studentName:", typeof studentName);
 console.log("Type of age:", typeof age);
 console.log("Type of bigNumber:", typeof bigNumber);
@@ -49,4 +49,3 @@ console.log("Type of address:", typeof address);
 console.log("Type of phoneNumber:", typeof phoneNumber);
 console.log("Type of id1:", typeof id1);
 
-//object
