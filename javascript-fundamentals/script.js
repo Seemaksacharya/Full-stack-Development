@@ -16,7 +16,8 @@
  const pi= 3.14;
  console.log(pi);
 
-//Hoisting with va
+//Hoisting with var
+console.log(a);
 var a = 10;
 
 
