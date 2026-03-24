@@ -57,27 +57,6 @@ let id1 = Symbol("id");
 let id2 = Symbol("id");
 
 
-console.log("String value:", studentName);
-console.log("String value:", course);
-
-console.log("Undefined value:", address);
-
-console.log("Number value:", age);
-console.log("Number value:", marks);
-
-console.log("BigInt value:", bigNumber);
-
-console.log("Boolean value:", isStudent);
-console.log("Boolean value:", isPassed);
-
-console.log("Undefined value:", address);
-
-console.log("Null value:", phoneNumber);
-
-console.log("Symbol value 1:", id1);
-console.log("Symbol value 2:", id2);
-
-console.log("Are symbols equal?", id1 === id2);
 
 
 
