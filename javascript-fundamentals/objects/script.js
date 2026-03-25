@@ -13,7 +13,7 @@ student.city = "Mysure";
 student.age = 25;
 delete student.city;
 
-//constructor
+//constructor function
 function User(name,age){
   this.name= name;
   this.age= age;
@@ -48,7 +48,6 @@ let dog = {};
 dog.__proto__ = animal;
 dog.eat();
 
-//builtin objects
 //number
 let num = 10.4567;
 console.log(num.toFixed(2));
@@ -78,3 +77,19 @@ console.log(text.charAt(3));
 console.log(text.indexOf("a"));
 console.log(text.split(""));
 
+//date
+let d = new Date();
+
+console.log(d.getFullYear());
+console.log(d.getMonth());
+console.log(d.getDate());
+console.log(d.getHours());
+console.log(d.getMinutes());
+
+//math
+console.log(Math.random());
+console.log(Math.floor(9.8));
+console.log(Math.ceil(4.7));
+console.log(Math.max(40, 12, 58));
+console.log(Math.min(10, 20, 5));
+console.log(Math.pow(2, 3));
