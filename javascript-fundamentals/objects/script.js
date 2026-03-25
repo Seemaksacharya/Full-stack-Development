@@ -48,3 +48,16 @@ let dog = {};
 dog.__proto__ = animal;
 dog.eat();
 
+//builtin objects
+//number
+let num = 10.4567;
+console.log(num.toFixed(2));
+console.log(num.toString());
+
+console.log(parseInt("123"));
+
+console.log(parseFloat("10.55"));
+
+let n = Number("50");
+console.log(n);
+
