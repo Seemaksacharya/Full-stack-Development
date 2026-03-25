@@ -61,3 +61,19 @@ console.log(parseFloat("10.55"));
 let n = Number("50");
 console.log(n);
 
+//string
+let text =" Java Script";
+console.log(text.length);
+
+console.log(text.toUpperCase());
+console.log(text.toLowerCase());
+console.log(text.slice(0,2));
+console.log(text.includes("Java"));
+console.log(text.replace("Java","Type"));
+console.log(text.trim());
+
+let text1 = "Fundamentals";
+console.log(text.concat(" ",text1));
+console.log(text.charAt(3));
+console.log(text.indexOf("a"));
+console.log(text.split(""));
