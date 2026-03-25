@@ -77,3 +77,5 @@ console.log(text.concat(" ",text1));
 console.log(text.charAt(3));
 console.log(text.indexOf("a"));
 console.log(text.split(""));
+
+//
