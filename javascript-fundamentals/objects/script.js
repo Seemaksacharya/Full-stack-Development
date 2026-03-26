@@ -105,7 +105,6 @@ test.x = 1000;
 
 console.log(test.x);
 
-
 //boolean
 let boolean = new Boolean(true);
 
