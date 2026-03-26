@@ -105,7 +105,38 @@ test.x = 1000;
 
 console.log(test.x);
 
+
 //boolean
 let boolean = new Boolean(true);
 
 console.log(boolean.toString());
+
+//implicit
+let x = "5" + 2;
+console.log(x);
+
+let y = "10" - 5;
+console.log(y);
+
+let z = true + 1;
+console.log(z);
+
+let number = 5 + false;
+console.log(number)
+
+//explicit
+let p = "45";
+let q = Number(p)
+console.log(p)
+
+let num1 = 100;
+let num2 = String(num1);
+console.log(num2);
+
+let a1 = 0;
+let a2 = Boolean(a1);
+console.log(a2);
+
+let b1 = true;
+let b2 = Number(b1);
+console.log(b2);
