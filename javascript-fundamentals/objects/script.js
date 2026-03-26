@@ -98,6 +98,12 @@ console.log(Math.pow(2, 3));
 let e = 10;
 console.log(e);
 
+try {
+  let x = y;
+} catch (err) {
+  console.log(err);
+}
+
 //function
 function test(){}
 
