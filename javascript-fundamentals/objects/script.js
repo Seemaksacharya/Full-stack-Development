@@ -93,3 +93,19 @@ console.log(Math.ceil(4.7));
 console.log(Math.max(40, 12, 58));
 console.log(Math.min(10, 20, 5));
 console.log(Math.pow(2, 3));
+
+//error 
+let e = 10;
+console.log(e);
+
+//function
+function test(){}
+
+test.x = 1000;
+
+console.log(test.x);
+
+//boolean
+let boolean = new Boolean(true);
+
+console.log(boolean.toString());
