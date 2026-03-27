@@ -1,0 +1,9 @@
+{
+  "name": "Seema",
+  "age": 23,
+  "skills": ["HTML", "CSS", "JavaScript"],
+  "education": {
+    "degree": "MCA",
+    "year": 2025
+  }
+}
