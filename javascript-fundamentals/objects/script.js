@@ -145,3 +145,11 @@ console.log(a2);
 let b1 = true;
 let b2 = Number(b1);
 console.log(b2);
+
+//json to obj
+let data = '{"name":"Seema","age":23}';
+
+let obj = JSON.parse(data);
+
+console.log(obj.name);
+
