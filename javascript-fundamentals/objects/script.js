@@ -153,3 +153,12 @@ let obj = JSON.parse(data);
 
 console.log(obj.name);
 
+//obj to json
+let object = {
+  name: "Seema",
+  age: 23
+};
+
+let json = JSON.stringify(object);
+
+console.log(json);
