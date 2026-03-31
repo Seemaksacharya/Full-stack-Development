@@ -1,5 +1,5 @@
 {
-  "name": "Seema",
+  "name": "Seema acharya",
   "age": 23,
   "skills": ["HTML", "CSS", "JavaScript"],
   "education": {
@@ -7,3 +7,4 @@
     "year": 2025
   }
 }
+
