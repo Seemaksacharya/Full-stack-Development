@@ -162,3 +162,7 @@ let object = {
 let json = JSON.stringify(object);
 
 console.log(json);
+
+let map = new Map();
+ map.set("name","seema");
+ console.log(map.get("name"));
