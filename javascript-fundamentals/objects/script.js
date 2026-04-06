@@ -185,3 +185,14 @@ console.log(weakMap.get(obj1));
 console.log(weakMap.has(obj1));
 weakMap.delete(obj1);
 
+//set
+let set = new Set();
+set.add(1);
+set.add(2);
+set.add(2); 
+
+console.log(set);
+console.log(set.size);
+console.log(set.has(1)); 
+set.delete(1);
+set.clear();
