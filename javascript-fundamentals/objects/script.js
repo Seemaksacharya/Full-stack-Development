@@ -196,3 +196,15 @@ console.log(set.size);
 console.log(set.has(1)); 
 set.delete(1);
 set.clear();
+
+//weakset
+let ws = new WeakSet();
+let u1 = {name : "Seema"};
+let u2 = {name : "Sam"};
+c
+ws.add(u1);
+ws.add(u2);
+
+console.log(ws.get(u1));
+ws.delete(u2);
+console.log(ws.has(u2));
