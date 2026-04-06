@@ -166,3 +166,22 @@ console.log(json);
 let map = new Map();
  map.set("name","seema");
  console.log(map.get("name"));
+
+ //map 
+let map = new Map();
+map.set("name","seema");
+console.log(map.get("name"));
+map.has("name");
+map.delete("name");
+map.clear(); 
+map.size; 
+
+//weakmap
+let weakmap =new Weakmap();
+let obj1 ={};
+let weakMap = new WeakMap();
+weakMap.set(obj1, "User Data");
+console.log(weakMap.get(obj1));
+console.log(weakMap.has(obj1));
+weakMap.delete(obj1);
+
