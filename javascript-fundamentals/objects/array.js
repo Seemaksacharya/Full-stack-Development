@@ -25,3 +25,18 @@ console.log(fruits);
 console.log(fruits.includes("orange"));
 
 console.log(fruits.indexOf("mango"));
+
+
+let sub = ["Maths", "Hindi", "english"];
+let upper = sub.map(f => f.toUpperCase());
+console.log(upper);
+
+let longNames = sub.filter(f => f.length > 5);
+console.log(longNames);
+
+let part = sub.slice(1, 2);
+console.log(part);
+
+let numbers = [1, 2, 3, 4];
+let sum = numbers.reduce((acc, curr) => acc + curr, 0);
+console.log(sum);
