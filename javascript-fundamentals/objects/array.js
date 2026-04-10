@@ -43,3 +43,17 @@ let sum = numbers.reduce((acc, curr) => acc + curr, 0);
 console.log(sum);
 
 //Typed array
+let marks = new Uint8Array([45, 60, 75, 90]);
+
+console.log("Original Marks:", marks);
+
+
+console.log("First Mark:", marks[0]);
+
+
+marks[1] = 80;
+console.log("Updated Marks:", marks);
+
+
+console.log("Length:", marks.length);
+
