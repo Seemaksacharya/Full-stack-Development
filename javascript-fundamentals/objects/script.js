@@ -209,4 +209,6 @@ console.log(ws.get(u1));
 ws.delete(u2);
 console.log(ws.has(u2));
  
-//
+//Array
+let fruits = ["apple","mango","banana"];
+console.log(fruits[2]);
