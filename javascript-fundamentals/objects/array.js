@@ -1,3 +1,4 @@
+//Array
 let arr = [1, "hello", true];
 
 let fruits = ["apple","babana","mango"];
