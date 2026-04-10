@@ -57,3 +57,11 @@ console.log("Updated Marks:", marks);
 
 console.log("Length:", marks.length);
 
+//equality comparison
+let a = 5;
+let b = "5";
+let c = NaN;
+
+console.log(a == b);          
+console.log(a === b);         
+console.log(Object.is(c, NaN));
