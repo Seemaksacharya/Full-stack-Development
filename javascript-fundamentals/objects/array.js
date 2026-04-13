@@ -41,7 +41,6 @@ console.log(sum);
 
 //Typed array
 let marks = new Uint8Array([45, 60, 75, 90]);
-
 console.log("Original Marks:", marks);
 
 
@@ -79,4 +78,5 @@ console.log(set.size);
 
 //SameValues
 console.log(NaN === NaN);
-console.log(Object.is(NaN, NaN)); 
+console.log(Object.is(NaN, NaN));
+
