@@ -63,4 +63,20 @@ console.log(a == b);
 console.log(a === b);         
 console.log(Object.is(c, NaN));
 
+//isLooselyEqual
+console.log(true == 1 );
+console.log([] == false);
 
+//isStrictlyEqual
+console.log(true === true);
+console.log(true === 1);
+
+//SameValueZero
+let set = new Set();
+set.add(NaN);
+set.add(NaN);
+console.log(set.size);
+
+//SameValues
+console.log(NaN === NaN);
+console.log(Object.is(NaN, NaN)); 
