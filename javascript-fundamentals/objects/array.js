@@ -26,12 +26,9 @@ console.log(fruits);
 console.log(fruits.includes("orange"));
 
 console.log(fruits.indexOf("mango"));
-
-
 let sub = ["Maths", "Hindi", "english"];
 let upper = sub.map(f => f.toUpperCase());
 console.log(upper);
-
 let longNames = sub.filter(f => f.length > 5);
 console.log(longNames);
 
@@ -65,3 +62,5 @@ let c = NaN;
 console.log(a == b);          
 console.log(a === b);         
 console.log(Object.is(c, NaN));
+
+
