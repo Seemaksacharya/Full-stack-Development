@@ -83,9 +83,14 @@ for(i = 0; i < n; i++){
   console.log(i);
 }
 
-let i = 0;
-while (i < 5) {
-  console.log(i);
-  i++;
+let j = 0;
+while (j < 5) {
+  console.log(j);
+  j++;
 }
 
+let k = 0;
+do {
+  console.log(k);
+  k++;
+} while (k < 3);
