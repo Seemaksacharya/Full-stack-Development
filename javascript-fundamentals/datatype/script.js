@@ -95,3 +95,7 @@ do {
   k++;
 } while (k < 3);
 
+let obj = { name: "Seema", age : 22 };
+for (let key in obj) {
+  console.log(key, obj[key]);
+}
