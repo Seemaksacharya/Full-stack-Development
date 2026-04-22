@@ -105,5 +105,3 @@ let obj = { name: "Seema", age : 22 };
 for (let key in obj) {
   console.log(key, obj[key]);
 }
-
-
