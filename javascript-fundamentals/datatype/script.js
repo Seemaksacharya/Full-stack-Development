@@ -79,7 +79,7 @@ console.log("Symbol value 2:", id2);
 
 console.log("Are symbols equal?", id1 === id2);
 
-for(i = 0; i < n; i++){
+for(i = 0; i < 5; i++){
   console.log(i);
 }
 
@@ -105,3 +105,5 @@ let obj = { name: "Seema", age : 22 };
 for (let key in obj) {
   console.log(key, obj[key]);
 }
+
+
