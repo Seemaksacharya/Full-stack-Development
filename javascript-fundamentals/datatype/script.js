@@ -79,8 +79,8 @@ console.log("Symbol value 2:", id2);
 
 console.log("Are symbols equal?", id1 === id2);
 
-for(i = 0; i < 5; i++){
-  console.log(i);
+for( i=0; i<5; i++){
+  console.log (i);
 }
 
 let j = 0;
