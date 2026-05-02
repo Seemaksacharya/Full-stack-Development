@@ -98,11 +98,11 @@ for (let value of arr) {
   console.log(value);
 }
 
-let numbers = [10, 20, 30];
+let name = "Seema";
 
-for (let num of numbers) {
-    console.log(num);
-} 
+for (let char of name) {
+    console.log(char);
+}
 
 //do while
 let k = 0;
