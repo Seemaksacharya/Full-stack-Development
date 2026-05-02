@@ -79,29 +79,39 @@ console.log("Symbol value 2:", id2);
 
 console.log("Are symbols equal?", id1 === id2);
 
+//for
 for( i=0; i<5; i++){
   console.log (i);
 }
 
+//while
 let j = 0;
 while (j < 5) {
   console.log(j);
   j++;
 }
 
+//for of
 let arr = [10, 20, 30];
 
 for (let value of arr) {
   console.log(value);
 }
 
+let numbers = [10, 20, 30];
+
+for (let num of numbers) {
+    console.log(num);
+} 
+
+//do while
 let k = 0;
 do {
   console.log(k);
   k++;
 } while (k < 3);
 
-
+//for in
 let arr = [10, 20, 30];
 
 for (let index in arr) {
