@@ -101,7 +101,10 @@ do {
   k++;
 } while (k < 3);
 
-let obj = { name: "Seema", age : 22 };
-for (let key in obj) {
-  console.log(key, obj[key]);
+
+let arr = [10, 20, 30];
+
+for (let index in arr) {
+    console.log(index);       
+    console.log(arr[index]);  
 }
