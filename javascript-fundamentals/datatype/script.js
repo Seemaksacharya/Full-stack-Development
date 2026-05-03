@@ -171,3 +171,12 @@ if(age ==18){
   default:
     console.log("Invalid day")
  }
+
+ //exception
+ try{
+  let result = x+5;
+ }
+ catch(error){
+   console.log("Something went wrong");
+ }
+ 
