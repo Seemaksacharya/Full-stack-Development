@@ -180,3 +180,5 @@ if(age ==18){
    console.log("Something went wrong");
  }
  
+ //example
+ 
