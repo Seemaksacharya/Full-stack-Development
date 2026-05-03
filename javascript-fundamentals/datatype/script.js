@@ -157,3 +157,17 @@ if(age ==18){
  else{
   console.log("not eligible");
  }
+
+ //switch
+ let day=2;
+
+ switch(day){
+  case 1 :
+    console.log("Monaday");
+    break;
+  case 2 :
+    console.log("Tuesday");
+    break;
+  default:
+    console.log("Invalid day")
+ }
