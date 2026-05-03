@@ -118,3 +118,20 @@ for (let index in arr) {
     console.log(index);       
     console.log(arr[index]);  
 }
+
+//break
+
+for(i=0;i<5;i++){
+  if(i==3){
+   break;
+  }
+  console.log(i);
+}
+
+//continue
+ for(j=0;j<5;j++){
+  if(j==2){
+    continue;
+  }
+  console.log(j);
+ }
