@@ -180,4 +180,9 @@ if(age ==18){
    console.log("Something went wrong");
  }
  
- 
+ //throw
+ try {
+    throw new Error("Something went wrong");
+} catch (err) {
+    console.log(err.message);
+}
