@@ -194,4 +194,4 @@ let check = number % 2 === 0 ? "Even" : "Odd";
 
 console.log(check);
 
-//
+//Comma operator
