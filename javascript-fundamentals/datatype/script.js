@@ -186,3 +186,12 @@ if(age ==18){
 } catch (err) {
     console.log(err.message);
 }
+
+//conditional operator
+let number = 7;
+
+let check = number % 2 === 0 ? "Even" : "Odd";
+
+console.log(check);
+
+//
