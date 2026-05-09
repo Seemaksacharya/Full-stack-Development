@@ -196,4 +196,4 @@ console.log(check);
 
 let num = -5;
 
-//opear
+//operator
