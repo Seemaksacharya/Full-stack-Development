@@ -196,4 +196,5 @@ console.log(check);
 
 let num = -5;
 
-//operators
+//operator
+let num=10;
