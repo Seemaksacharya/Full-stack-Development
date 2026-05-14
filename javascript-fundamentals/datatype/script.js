@@ -207,3 +207,5 @@ let result=(a++,b++,a+b);
 console.log(result);
 
 //Unary Operator
+let x="10";
+console.log(+x);
