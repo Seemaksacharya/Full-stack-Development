@@ -205,3 +205,5 @@ let b=2;
 let result=(a++,b++,a+b);
 
 console.log(result);
+
+//Unary Operator
