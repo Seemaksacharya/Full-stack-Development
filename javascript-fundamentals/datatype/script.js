@@ -196,5 +196,9 @@ console.log(check);
 
 let num = -5;
 
-//operator
-let num=10;
+//comma operator
+let x=(2+3,2*5);
+console.log(x);
+
+
+//U
