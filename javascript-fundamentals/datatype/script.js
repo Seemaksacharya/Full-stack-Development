@@ -221,3 +221,6 @@ z++;
 console.log(z);
 
 //--
+let m=100;
+m--;
+console.log(m);
