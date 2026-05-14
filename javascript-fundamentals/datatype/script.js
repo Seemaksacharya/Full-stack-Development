@@ -200,5 +200,8 @@ let num = -5;
 let x=(2+3,2*5);
 console.log(x);
 
+let a=1;
+let b=2;
+let result=(a++,b++,a+b);
 
-//U
+console.log(result);
