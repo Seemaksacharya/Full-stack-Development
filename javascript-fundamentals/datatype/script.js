@@ -226,3 +226,5 @@ m--;
 console.log(m);
 
 //!
+let n=true;
+console.log(!n);
