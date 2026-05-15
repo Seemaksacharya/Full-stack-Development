@@ -228,3 +228,14 @@ console.log(m);
 //!
 let n=true;
 console.log(!n);
+
+//typeof
+let name = "Seema";
+
+console.log(typeof name);
+
+//assignment operator
+let x = 5;
+x += 3;
+
+console.log(x);
