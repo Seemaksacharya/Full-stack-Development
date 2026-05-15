@@ -261,3 +261,10 @@ console.log(5 == "5");
 console.log(5 === "5");
 console.log(10 > 5);
 console.log(3 <= 5);
+
+//logical
+let age = 20;
+
+console.log(age > 18 && age < 30);
+console.log(age < 18 || age > 10);
+console.log(!(age > 18));
