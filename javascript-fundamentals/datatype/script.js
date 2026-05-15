@@ -244,3 +244,14 @@ let x = 10;
 x -= 4;
 
 console.log(x);
+
+//Arithmetic Operators
+let a = 10;
+let b = 5;
+
+console.log(a + b); 
+console.log(a - b);
+console.log(a * b); 
+console.log(a / b); 
+console.log(a % b); 
+console.log(a ** 2); 
