@@ -268,3 +268,4 @@ let age = 20;
 console.log(age > 18 && age < 30);
 console.log(age < 18 || age > 10);
 console.log(!(age > 18));
+
