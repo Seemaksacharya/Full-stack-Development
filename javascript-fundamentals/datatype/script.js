@@ -269,3 +269,14 @@ console.log(age > 18 && age < 30);
 console.log(age < 18 || age > 10);
 console.log(!(age > 18));
 
+//function
+
+function greet(name){
+  if(name== undefined){
+    name="Guest";
+  }
+  console.log("Hello"+name);
+}
+greet();
+greet(Seema);
+
