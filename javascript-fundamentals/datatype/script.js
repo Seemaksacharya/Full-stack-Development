@@ -308,3 +308,17 @@ function second(){
   console.log("Second");
 }
 second();
+
+//function stack
+let x = 10; 
+
+function A() {
+   let y = 20; 
+   B();
+}
+
+function B() {
+   console.log(x);
+}
+
+A();
