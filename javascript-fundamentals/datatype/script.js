@@ -283,3 +283,8 @@ greet(Seema);
 //
 
 //global scope
+let name= "Seema";
+
+function show(){
+  
+}
