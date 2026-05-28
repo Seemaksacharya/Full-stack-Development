@@ -281,3 +281,5 @@ greet();
 greet(Seema);
 
 //
+
+//global scope
