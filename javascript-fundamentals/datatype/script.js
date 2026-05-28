@@ -286,5 +286,16 @@ greet(Seema);
 let name= "Seema";
 
 function show(){
-  
+  console.log(name);
 }
+show();
+
+//local scope
+function test(){
+  let age=25;
+  console.log(age);
+}
+test();
+console.log(test);
+
+//
