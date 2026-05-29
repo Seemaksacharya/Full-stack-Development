@@ -349,4 +349,4 @@ function outer(){
 }
 outer();
 
-//
+//closure
