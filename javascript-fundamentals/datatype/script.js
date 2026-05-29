@@ -334,3 +334,19 @@ function count(n){
 count(10);
 
 //  lexical scoping
+let a=10;
+
+function outer(){
+  let b=5;
+
+  function inner(){
+    let c =2;
+    console.log(a);
+    console.log(b);
+    console.log(c);
+  }
+  inner();
+}
+outer();
+
+//
