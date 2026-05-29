@@ -333,4 +333,4 @@ function count(n){
 }
 count(10);
 
-///
+//  lexical scoping
