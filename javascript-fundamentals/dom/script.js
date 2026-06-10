@@ -28,3 +28,14 @@ function show() {
 }
 
 show();
+
+const person = {
+  name: "Seema"
+};
+
+function greet() {
+  console.log(this.name);
+}
+
+greet.call(person);
+
