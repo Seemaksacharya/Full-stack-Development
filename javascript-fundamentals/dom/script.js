@@ -39,3 +39,5 @@ function greet() {
 
 greet.call(person);
 
+greet.apply(person);
+
