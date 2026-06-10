@@ -20,3 +20,11 @@ function show() {
 }
 
 show();
+
+"use strict";
+
+function show() {
+  console.log(this);
+}
+
+show();
