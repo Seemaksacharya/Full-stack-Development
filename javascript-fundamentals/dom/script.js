@@ -13,3 +13,10 @@ const person = {
 
 person.greet();
 
+console.log(this);
+
+function show() {
+  console.log(this);
+}
+
+show();
