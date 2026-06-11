@@ -4,6 +4,7 @@ console.log(box);
 let Element = document.querySelector("box")
 console.log(box);
 
+//
 const person = {
   name: "Seema",
   greet: function() {
@@ -43,3 +44,4 @@ greet.apply(person);
 
 const newGreet = greet.bind(person);
 newGreet();
+
